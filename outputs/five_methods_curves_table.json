@@ -1,0 +1,157 @@
+[
+    {
+        "Method": "1. F-Regression (Filter + OLS)",
+        "Feature Order": [
+            "R&D Spend",
+            "Marketing Spend",
+            "Administration",
+            "State_New York",
+            "State_Florida"
+        ],
+        "k=1 (RMSE, R2)": [
+            8274.87,
+            0.9465
+        ],
+        "k=2 (RMSE, R2)": [
+            8198.8,
+            0.9474
+        ],
+        "k=3 (RMSE, R2)": [
+            8803.78,
+            0.9394
+        ],
+        "k=4 (RMSE, R2)": [
+            8997.2,
+            0.9367
+        ],
+        "k=5 (RMSE, R2)": [
+            9137.99,
+            0.9347
+        ],
+        "Optimal k": 2
+    },
+    {
+        "Method": "2. RFE Stepwise (Teacher Path)",
+        "Feature Order": [
+            "R&D Spend",
+            "Marketing Spend",
+            "State_New York",
+            "State_Florida",
+            "Administration"
+        ],
+        "k=1 (RMSE, R2)": [
+            8274.87,
+            0.9465
+        ],
+        "k=2 (RMSE, R2)": [
+            8198.8,
+            0.9474
+        ],
+        "k=3 (RMSE, R2)": [
+            8309.06,
+            0.946
+        ],
+        "k=4 (RMSE, R2)": [
+            8409.92,
+            0.9447
+        ],
+        "k=5 (RMSE, R2)": [
+            9137.99,
+            0.9347
+        ],
+        "Optimal k": 2
+    },
+    {
+        "Method": "3. Forward SFS (5-Fold CV Score)",
+        "Feature Order": [
+            "R&D Spend",
+            "Marketing Spend",
+            "Administration",
+            "State_New York",
+            "State_Florida"
+        ],
+        "k=1 (RMSE, R2)": [
+            9745.4,
+            0.9199
+        ],
+        "k=2 (RMSE, R2)": [
+            9482.34,
+            0.9247
+        ],
+        "k=3 (RMSE, R2)": [
+            9678.08,
+            0.921
+        ],
+        "k=4 (RMSE, R2)": [
+            9990.34,
+            0.9143
+        ],
+        "k=5 (RMSE, R2)": [
+            10158.66,
+            0.9108
+        ],
+        "Optimal k": 2
+    },
+    {
+        "Method": "4. Lasso L1 (Penalized Regression)",
+        "Feature Order": [
+            "R&D Spend",
+            "Marketing Spend",
+            "Administration",
+            "State_New York",
+            "State_Florida"
+        ],
+        "k=1 (RMSE, R2)": [
+            8610.69,
+            0.942
+        ],
+        "k=2 (RMSE, R2)": [
+            8484.57,
+            0.9437
+        ],
+        "k=3 (RMSE, R2)": [
+            8484.57,
+            0.9437
+        ],
+        "k=4 (RMSE, R2)": [
+            8484.57,
+            0.9437
+        ],
+        "k=5 (RMSE, R2)": [
+            8484.57,
+            0.9437
+        ],
+        "Optimal k": 2
+    },
+    {
+        "Method": "5. Random Forest (Tree Ensemble)",
+        "Feature Order": [
+            "R&D Spend",
+            "Marketing Spend",
+            "Administration",
+            "State_Florida",
+            "State_New York"
+        ],
+        "k=1 (RMSE, R2)": [
+            9161.52,
+            0.9344
+        ],
+        "k=2 (RMSE, R2)": [
+            6412.15,
+            0.9679
+        ],
+        "k=3 (RMSE, R2)": [
+            6613.32,
+            0.9658
+        ],
+        "k=4 (RMSE, R2)": [
+            6370.18,
+            0.9683
+        ],
+        "k=5 (RMSE, R2)": [
+            5973.72,
+            0.9721
+        ],
+        "Optimal k": 2
+    }
+]

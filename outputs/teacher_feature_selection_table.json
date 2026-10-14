@@ -1,0 +1,52 @@
+[
+    {
+        "Number of Features": 1,
+        "Selected Features": [
+            "R&D Spend"
+        ],
+        "RMSE": 8274.86801822599,
+        "R-squared": 0.9464587607787219
+    },
+    {
+        "Number of Features": 2,
+        "Selected Features": [
+            "R&D Spend",
+            "Marketing Spend"
+        ],
+        "RMSE": 8198.797190788488,
+        "R-squared": 0.9474386447268488
+    },
+    {
+        "Number of Features": 3,
+        "Selected Features": [
+            "R&D Spend",
+            "Marketing Spend",
+            "State_New York"
+        ],
+        "RMSE": 8309.05968348172,
+        "R-squared": 0.9460153830071389
+    },
+    {
+        "Number of Features": 4,
+        "Selected Features": [
+            "R&D Spend",
+            "Marketing Spend",
+            "State_New York",
+            "State_Florida"
+        ],
+        "RMSE": 8409.916714488054,
+        "R-squared": 0.9446968769428332
+    },
+    {
+        "Number of Features": 5,
+        "Selected Features": [
+            "R&D Spend",
+            "Marketing Spend",
+            "State_New York",
+            "State_Florida",
+            "State_California"
+        ],
+        "RMSE": 9137.99015279461,
+        "R-squared": 0.9347068473282473
+    }
+]

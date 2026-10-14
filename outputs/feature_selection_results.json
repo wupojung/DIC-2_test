@@ -1,0 +1,57 @@
+[
+    {
+        "subset_name": "1. All 5 Features (Full Model)",
+        "feature_count": 5,
+        "features": [
+            "R&D Spend",
+            "Administration",
+            "Marketing Spend",
+            "State_Florida",
+            "State_New York"
+        ],
+        "cv_mean_r2": 0.9340039511035654,
+        "cv_std_r2": 0.03230145613316962,
+        "test_r2": 0.8987266414328636,
+        "test_mae": 6961.477813252382,
+        "test_rmse": 9055.957323458471
+    },
+    {
+        "subset_name": "2. Top 3 Features (R&D, Admin, Marketing)",
+        "feature_count": 3,
+        "features": [
+            "R&D Spend",
+            "Administration",
+            "Marketing Spend"
+        ],
+        "cv_mean_r2": 0.9399392913746606,
+        "cv_std_r2": 0.030750526266947846,
+        "test_r2": 0.900065308303732,
+        "test_mae": 6979.1522523704,
+        "test_rmse": 8995.905803361416
+    },
+    {
+        "subset_name": "3. Top 2 Features (R&D, Marketing)",
+        "feature_count": 2,
+        "features": [
+            "R&D Spend",
+            "Marketing Spend"
+        ],
+        "cv_mean_r2": 0.9415997343689559,
+        "cv_std_r2": 0.02649404814313917,
+        "test_r2": 0.9168381183550247,
+        "test_mae": 6469.181721468585,
+        "test_rmse": 8206.32881316585
+    },
+    {
+        "subset_name": "4. R&D Spend Only (Single Feature)",
+        "feature_count": 1,
+        "features": [
+            "R&D Spend"
+        ],
+        "cv_mean_r2": 0.93837368355318,
+        "cv_std_r2": 0.028423382206430276,
+        "test_r2": 0.9265108109341951,
+        "test_mae": 6077.363300620399,
+        "test_rmse": 7714.334890830185
+    }
+]

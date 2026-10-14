@@ -1,0 +1,22 @@
+======================================================================
+50 Startups — Multiple Linear Regression Evaluation Summary
+======================================================================
+
+5-Fold CV Mean R2:   0.9340 (std: 0.0323)
+5-Fold CV Mean RMSE: $9,550.68
+
+Test Set Metrics (20% Holdout, N=10):
+  MAE:  $6,961.48
+  MSE:  $82,010,363.04
+  RMSE: $9,055.96
+  R2:   0.8987
+
+Regression Equation:
+  Profit = 54,028.04
+         + (0.8056 * R&D Spend)
+         + (-0.0688 * Administration)
+         + (0.0299 * Marketing Spend)
+         + (938.7930 * State_Florida)
+         + (6.9878 * State_New York)
+
+Note: State_California is the baseline category.
